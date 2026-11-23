@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "store_performance_diagnosis"
+version = "0.1.0"
+description = "本地合成零售运营资料"
+requires-python = ">=3.11,<3.15"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
